@@ -14,7 +14,7 @@ describe("About Prototypal Inheritance (about_prototypal_inheritance.js)", funct
     let eric  = new Mammal("Eric");
 
     // what will Eric say?
-    expect(FILL_ME_IN).toBe(eric.sayHi());
+    expect("Hello, my name is Eric").toBe(eric.sayHi());
   });
 
   // add another function to the Mammal 'type' that uses the sayHi function
@@ -26,7 +26,7 @@ describe("About Prototypal Inheritance (about_prototypal_inheritance.js)", funct
     let bobby = new Mammal("Bobby");
 
     // what is Bobby's favourite saying?
-    expect(FILL_ME_IN).toBe(bobby.favouriteSaying()); 
+    expect("Bobby's favourite saying is Hello, my name is Bobby").toBe(bobby.favouriteSaying()); 
   });
 
   it("calling functions added to a prototype after an object was created", function() {
@@ -38,7 +38,7 @@ describe("About Prototypal Inheritance (about_prototypal_inheritance.js)", funct
     // to the Mammal prototype after paul was constructed.
 
     // how long is Paul's name?
-    expect(FILL_ME_IN).toBe(paul.numberOfLettersInName());
+    expect(4).toBe(paul.numberOfLettersInName());
   });
 
   // helper function for inheritance. 
@@ -60,9 +60,9 @@ describe("About Prototypal Inheritance (about_prototypal_inheritance.js)", funct
     let lenny = new Bat("Lenny", "1.5m");
 
     // what does Lenny say?
-    expect(FILL_ME_IN).toBe(lenny.sayHi());
+    expect("Hello, my name is Lenny").toBe(lenny.sayHi());
 
     // what is Lenny's wingspan?
-    expect(FILL_ME_IN).toBe(lenny.wingspan);
+    expect("1.5m").toBe(lenny.wingspan);
   });
 });
