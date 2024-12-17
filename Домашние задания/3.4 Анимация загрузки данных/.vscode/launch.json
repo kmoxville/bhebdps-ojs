@@ -1,0 +1,15 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Edge",
+            "request": "launch",
+            "type": "msedge",
+            "file": "E:\\Home\\YandexDisk\\Документы\\Src\\bhebdps-ojs\\Домашние задания\\3.4 Анимация загрузки данных\\task.html",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
